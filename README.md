@@ -4,10 +4,13 @@
 
 ## 🚀 USAGE
 
-### 📦 Mirror 1 (Vercel)
+### 📦 Mirror 1 (Cloudflare)
 `http://cdn.hmtika.web.id/`
 
-### 📦 Mirror 2 (Netlify)
+### 📦 Mirror 2 (Vercel)
+`https://cdn-hmtika-web-id.vercel.app/`
+
+### 📦 Mirror 3 (Netlify)
 `https://cdn-hmtika2425.netlify.app/`
 
 ---

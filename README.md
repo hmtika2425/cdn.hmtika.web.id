@@ -4,7 +4,7 @@
 
 ## 🚀 USAGE
 
-### 📦 Mirror 1 (Cloudflare)
+### 📦 Mirror 1
 `https://cdn.hmtika.web.id/`
 
 ### 📦 Mirror 2 (Vercel)

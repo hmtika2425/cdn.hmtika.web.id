@@ -42,11 +42,6 @@ export default function LogoHMTIKA() {
     return (
         <img
             src={mainLogoHmtika}
-            alt="Logo HMTIKA"
-            width={300}
-            height={300}
-            className="mb-4"
-            loading="lazy"
             onError={() => handleErrorMminLogoHmtika(MAIN_LOGO_HMTIKA_PATH)}
         />
     );

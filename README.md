@@ -9,11 +9,9 @@ Disediakan beberapa **mirror server** agar lebih aman dan reliabel.
 
 | Mirror  | URL | Status |
 |---------|-----|--------|
-| Primary | [cdn.hmtika.web.id](https://cdn.hmtika.web.id/) | ![UptimeRobot status]([https://img.shields.io/uptimerobot/status/801203496?apikey=ur3078768-56c5c98cf1e6f31f95d667e1&label=cdn.hmtika.web.id](https://img.shields.io/uptimerobot/status/801203496?apikey=ur3078768-56c5c98cf1e6f31f95d667e1&label=Primary))
-| Vercel  | [cdn-hmtika-web-id.vercel.app](https://cdn-hmtika-web-id.vercel.app/) | ![UptimeRobot status](https://img.shields.io/uptimerobot/status/MONITOR_ID_2) |
-| Netlify | [cdn-hmtika2425.netlify.app](https://cdn-hmtika2425.netlify.app/) | ![UptimeRobot status](https://img.shields.io/uptimerobot/status/MONITOR_ID_3) |
-
-> 🔧 Ganti `MONITOR_ID_X` dengan **Monitor ID** dari [UptimeRobot](https://uptimerobot.com).
+| Primary | [cdn.hmtika.web.id](https://cdn.hmtika.web.id/) | ![UptimeRobot status](https://img.shields.io/uptimerobot/status/m801203496-9a66cb47d5749fea9c3c0b70) |
+| Vercel  | [cdn-hmtika-web-id.vercel.app](https://cdn-hmtika-web-id.vercel.app/) | ![UptimeRobot status](https://img.shields.io/uptimerobot/status/m801203600-eb846403205e1512fbfe0763) |
+| Netlify | [cdn-hmtika2425.netlify.app](https://cdn-hmtika2425.netlify.app/) | ![UptimeRobot status](https://img.shields.io/uptimerobot/status/m801203496-9a66cb47d5749fea9c3c0b70) |
 
 ---
 
@@ -65,3 +63,11 @@ export default function LogoHMTIKA() {
         />
     );
 }
+
+```
+
+🛠️ Catatan
+
+Gunakan mirror utama (cdn.hmtika.web.id) sebisa mungkin.
+
+Jika mirror utama tidak bisa diakses, gunakan fallback (Netlify / Vercel).

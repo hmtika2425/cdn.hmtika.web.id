@@ -115,31 +115,31 @@
         <h1>Redirecting . . . </h1>
     </div> -->
   
-     <script>
-    // Ambil query string
-    const params = new URLSearchParams(window.location.search);
-    const filePath = params.get("download");
+    <script>
+  const params = new URLSearchParams(window.location.search);
+  const filePath = params.get("download");
 
-    if (filePath) {
-      // Jika ada parameter download
-      const fileUrl = window.location.origin + filePath;
+  if (filePath) {
+    const fileUrl = window.location.origin + filePath;
 
-      // Buat elemen <a> untuk trigger download
-      const link = document.createElement("a");
-      link.href = fileUrl;
-      link.setAttribute("download", filePath.split("/").pop()); // ambil nama file
-      document.body.appendChild(link);
-      link.click();
-      link.remove();
+    const link = document.createElement("a");
+    link.href = fileUrl;
+    link.setAttribute("download", filePath.split("/").pop());
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
 
-      document.getElementById("status").innerText = "Downloading...";
-    } else {
-      // Jika tidak ada parameter download → redirect ke repo
-      setTimeout(function () {
-        window.location.href = "https://github.com/hmtika2425/cdn.hmtika.web.id";
-      }, 3000);
-    }
-  </script>
+    // kasih sedikit delay biar klik sempat jalan
+    setTimeout(() => {
+      window.close();
+    }, 1000);
+  } else {
+    setTimeout(function () {
+      window.location.href = "https://github.com/hmtika2425/cdn.hmtika.web.id";
+    }, 3000);
+  }
+</script>
+
 
 </body>
 

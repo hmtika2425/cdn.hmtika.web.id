@@ -10,8 +10,11 @@ Disediakan beberapa **mirror server** agar lebih aman dan reliabel.
 | Mirror  | URL | Status |
 |---------|-----|--------|
 | Primary | [cdn.hmtika.web.id](https://cdn.hmtika.web.id/) | ![UptimeRobot status](https://img.shields.io/uptimerobot/status/m801203496-9a66cb47d5749fea9c3c0b70) |
+| Backup  | [cdn-2.hmtika.web.id](https://cdn-2.hmtika.web.id) | ![UptimeRobot status](https://img.shields.io/uptimerobot/status/m801446466-27d347e7ab0e984e10197dc1) |
 | Vercel  | [cdn-hmtika-web-id.vercel.app](https://cdn-hmtika-web-id.vercel.app/) | ![UptimeRobot status](https://img.shields.io/uptimerobot/status/m801203600-eb846403205e1512fbfe0763) |
 | Netlify | [cdn-hmtika2425.netlify.app](https://cdn-hmtika2425.netlify.app/) | ![UptimeRobot status](https://img.shields.io/uptimerobot/status/m801203496-9a66cb47d5749fea9c3c0b70) |
+
+
 
 ---
 

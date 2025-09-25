@@ -38,6 +38,14 @@ Disediakan beberapa **mirror server** agar lebih aman dan reliabel.
 https://cdn.hmtika.web.id/images/logo-hmtika/main-logo-HMTIKA-1.png
 ```
 
+## 💡 Download
+
+Mirror?download=path
+
+```txt
+https://cdn.hmtika.web.id?download=/images/logo-hmtika/main-logo-HMTIKA-1.png
+```
+
 ## 💡 Example Failover
 
 ```ts
